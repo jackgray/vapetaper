@@ -1,0 +1,33 @@
+{
+    "vapes": [
+      {
+        "product_id": "airbar-diamond-01",
+        "brand_name": "Airbar",
+        "model_name": "Diamond",
+        "puff_count": 500,
+        "nicotine_concentration": 5.0
+      },
+      {
+        "product_id": "juul-pod-3pcnt",
+        "brand_name": "Juul",
+        "model_name": "Pod",
+        "puff_count": 200,
+        "nicotine_concentration": 3.0
+      },
+      {
+        "product_id": "airbar-mini-5pcnt",
+        "brand_name": "Airbar",
+        "model_name": "Mini",
+        "puff_count": 300,
+        "nicotine_concentration": 5.0
+      },
+      {
+        "product_id": "elf-bar-5pcnt",
+        "brand_name": "Elf Bar",
+        "model_name": "Standard",
+        "puff_count": 600,
+        "nicotine_concentration": 5.0
+      }
+    ]
+  }
+  
