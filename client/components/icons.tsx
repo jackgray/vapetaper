@@ -15,13 +15,9 @@ export const Logo: React.FC<IconSvgProps> = ({
     width={size || width}
     {...props}
   >
-    <circle
-      cx="12"
-      cy="12"
-      r="10"
-      stroke="#6a0dad"      // Purple color for the ring
-      strokeWidth="4"       // Line width of 4 pixels
-      fill="none"           // No fill in the middle
+    <path 
+      xmlns="http://www.w3.org/2000/svg" 
+      d="M11.6621 0 C11.6621 0 9.8623 0 9.8623 0 C9.8623 0 9.8623 12.194 9.8623 12.194 C9.8623 12.194 2.0664 0 2.0664 0 C2.0664 0 0 0 0 0 C0 0 0 14.915 0 14.915 C0 14.915 1.8008 14.915 1.8008 14.915 C1.8008 14.915 1.8008 2.8232 1.8008 2.8232 C1.8008 2.8232 9.5146 14.915 9.5146 14.915 C9.5146 14.915 11.6621 14.915 11.6621 14.915 C11.6621 14.915 11.6621 0 11.6621 0 Z"
     />
   </svg>
 );

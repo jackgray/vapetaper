@@ -32,7 +32,7 @@ services:
       
   cloudflare:
     image: cloudflare/cloudflared:latest
-    container_name: vapetracker-cloudlfare
+    container_name: vapetaper-cloudlfare
     command: tunnel --config /etc/cloudflared/config.yaml run
     volumes:
       - ./cloudflare:/etc/cloudflared

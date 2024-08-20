@@ -19,44 +19,9 @@ export default function UserSparkLineChart() {
 
   return (
     <Stack direction="column" sx={{ width: '100%' }}>
-      <Stack direction="row">
-        <FormControlLabel
-          value="end"
-          control={
-            <Switch
-              color="primary"
-              checked={showHighlight}
-              onChange={handleHighlightChange}
-            />
-          }
-          label="showHighlight"
-          labelPlacement="end"
-        />
-        <FormControlLabel
-          value="end"
-          control={
-            <Switch
-              color="primary"
-              checked={showTooltip}
-              onChange={handleTooltipChange}
-            />
-          }
-          label="showTooltip"
-          labelPlacement="end"
-        />
-      </Stack>
       <Stack direction="row" sx={{ width: '100%' }}>
         <Box sx={{ flexGrow: 1 }}>
           <SparkLineChart
-            data={[1, 4, 2, 5, 7, 2, 4, 6]}
-            height={100}
-            showHighlight={showHighlight}
-            showTooltip={showTooltip}
-          />
-        </Box>
-        <Box sx={{ flexGrow: 1 }}>
-          <SparkLineChart
-            plotType="bar"
             data={[1, 4, 2, 5, 7, 2, 4, 6]}
             height={100}
             showHighlight={showHighlight}

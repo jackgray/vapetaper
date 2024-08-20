@@ -1,33 +1,172 @@
 {
-    "vapes": [
-      {
-        "product_id": "airbar-diamond-01",
-        "brand_name": "Airbar",
-        "model_name": "Diamond",
-        "puff_count": 500,
-        "nicotine_concentration": 5.0
-      },
-      {
-        "product_id": "juul-pod-3pcnt",
-        "brand_name": "Juul",
-        "model_name": "Pod",
-        "puff_count": 200,
-        "nicotine_concentration": 3.0
-      },
-      {
-        "product_id": "airbar-mini-5pcnt",
-        "brand_name": "Airbar",
-        "model_name": "Mini",
-        "puff_count": 300,
-        "nicotine_concentration": 5.0
-      },
-      {
-        "product_id": "elf-bar-5pcnt",
-        "brand_name": "Elf Bar",
-        "model_name": "Standard",
-        "puff_count": 600,
-        "nicotine_concentration": 5.0
-      }
-    ]
-  }
-  
+  "vapes": [
+    {
+      "product_id": "airbar-diamond-01",
+      "brand_name": "Airbar",
+      "model_name": "Diamond",
+      "puff_count": 500,
+      "nicotine_concentration": 5.0
+    },
+    {
+      "product_id": "juul-pod-3pcnt",
+      "brand_name": "Juul",
+      "model_name": "Pod",
+      "puff_count": 200,
+      "nicotine_concentration": 3.0
+    },
+    {
+      "product_id": "airbar-mini-5pcnt",
+      "brand_name": "Airbar",
+      "model_name": "Mini",
+      "puff_count": 300,
+      "nicotine_concentration": 5.0
+    },
+    {
+      "product_id": "elf-bar-5pcnt",
+      "brand_name": "Elf Bar",
+      "model_name": "Standard",
+      "puff_count": 600,
+      "nicotine_concentration": 5.0
+    },
+    {
+      "product_id": "puff-bar-plus-5pcnt",
+      "brand_name": "Puff Bar",
+      "model_name": "Plus",
+      "puff_count": 800,
+      "nicotine_concentration": 5.0
+    },
+    {
+      "product_id": "vuse-alto-2pcnt",
+      "brand_name": "Vuse",
+      "model_name": "Alto",
+      "puff_count": 350,
+      "nicotine_concentration": 2.4
+    },
+    {
+      "product_id": "smok-novo2-5pcnt",
+      "brand_name": "Smok",
+      "model_name": "Novo 2",
+      "puff_count": 450,
+      "nicotine_concentration": 5.0
+    },
+    {
+      "product_id": "bang-xxl-6pcnt",
+      "brand_name": "Bang",
+      "model_name": "XXL",
+      "puff_count": 2000,
+      "nicotine_concentration": 6.0
+    },
+    {
+      "product_id": "hyppe-max-flow-5pcnt",
+      "brand_name": "Hyppe",
+      "model_name": "Max Flow",
+      "puff_count": 2000,
+      "nicotine_concentration": 5.0
+    },
+    {
+      "product_id": "caliburn-koko-1.2pcnt",
+      "brand_name": "Uwell",
+      "model_name": "Caliburn Koko",
+      "puff_count": 600,
+      "nicotine_concentration": 1.2
+    },
+    {
+      "product_id": "ignite-v15-5pcnt",
+      "brand_name": "Ignite",
+      "model_name": "V15",
+      "puff_count": 1500,
+      "nicotine_concentration": 5.0
+    },
+    {
+      "product_id": "airbar-lux-5pcnt",
+      "brand_name": "Airbar",
+      "model_name": "Lux",
+      "puff_count": 1000,
+      "nicotine_concentration": 5.0
+    },
+    {
+      "product_id": "esco-bar-5pcnt",
+      "brand_name": "Esco Bar",
+      "model_name": "Mega",
+      "puff_count": 2500,
+      "nicotine_concentration": 5.0
+    },
+    {
+      "product_id": "voom-ice-3pcnt",
+      "brand_name": "Voom",
+      "model_name": "Ice",
+      "puff_count": 500,
+      "nicotine_concentration": 3.0
+    },
+    {
+      "product_id": "flum-float-5pcnt",
+      "brand_name": "Flum",
+      "model_name": "Float",
+      "puff_count": 3000,
+      "nicotine_concentration": 5.0
+    },
+    {
+      "product_id": "airbar-box-5pcnt",
+      "brand_name": "Airbar",
+      "model_name": "Box",
+      "puff_count": 3000,
+      "nicotine_concentration": 5.0
+    },
+    {
+      "product_id": "lost-mary-os5000-5pcnt",
+      "brand_name": "Lost Mary",
+      "model_name": "OS5000",
+      "puff_count": 5000,
+      "nicotine_concentration": 5.0
+    },
+    {
+      "product_id": "drag-x-plus-5pcnt",
+      "brand_name": "Voopoo",
+      "model_name": "Drag X Plus",
+      "puff_count": 2000,
+      "nicotine_concentration": 5.0
+    },
+    {
+      "product_id": "juul-c1-3pcnt",
+      "brand_name": "Juul",
+      "model_name": "C1",
+      "puff_count": 200,
+      "nicotine_concentration": 3.0
+    },
+    {
+      "product_id": "puff-bar-max-5pcnt",
+      "brand_name": "Puff Bar",
+      "model_name": "Max",
+      "puff_count": 2000,
+      "nicotine_concentration": 5.0
+    },
+    {
+      "product_id": "njoy-ace-5pcnt",
+      "brand_name": "Njoy",
+      "model_name": "Ace",
+      "puff_count": 300,
+      "nicotine_concentration": 5.0
+    },
+    {
+      "product_id": "suorin-air-pro-5pcnt",
+      "brand_name": "Suorin",
+      "model_name": "Air Pro",
+      "puff_count": 1000,
+      "nicotine_concentration": 5.0
+    },
+    {
+      "product_id": "relx-infinity-3pcnt",
+      "brand_name": "Relx",
+      "model_name": "Infinity",
+      "puff_count": 600,
+      "nicotine_concentration": 3.0
+    },
+    {
+      "product_id": "smok-nfix-5pcnt",
+      "brand_name": "Smok",
+      "model_name": "Nfix",
+      "puff_count": 700,
+      "nicotine_concentration": 5.0
+    }
+  ]
+}

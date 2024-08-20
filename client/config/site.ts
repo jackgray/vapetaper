@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "VapeTaper",
-  description: "Track nicotine vape consumption pattenrs and curb your usage.",
+  name: "Vapetaper",
+  description: "Conveniently track nicotine vape consumption patterns and kick the habit.",
   navItems: [
     {
       label: "Home",
@@ -56,7 +56,7 @@ export const siteConfig = {
   //   },
   // ],
   links: {
-    github: "https://github.com/jackgray/spotlight",
+    github: "https://github.com/jackgray/vapetaper",
     // twitter: "https://twitter.com/getnextui",
     // docs: "https://nextui.org",
     // discord: "https://discord.gg/9b6yyZKmH4",

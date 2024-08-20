@@ -1,10 +1,11 @@
 'use client';
 
 import { FC, useState } from 'react';
-import { Card, CardHeader, CardBody, CardFooter } from "@nextui-org/card";
-import Image from "@nextui-org/image"
+import { Card, CardHeader, CardFooter } from "@nextui-org/card";
+import Image from "@nextui-org/image";
 import { Vape } from '@/types';
-import Add from '@/components/add'
+import Add from '@/components/add';
+import Retire from '@/components/retire'
 
 interface VapesProps {
   vapes: Vape[];
@@ -39,52 +40,31 @@ const Vapes: FC<VapesProps> = ({ vapes }) => {
   };
 
   return (
-    <div className="gap-2 grid grid-cols-2 sm:grid-cols-4">
+    <div className="flex gap-4 overflow-x-scroll p-4">
       {vapes.map((item, index) => (
-        // <Card
-        //   shadow="sm"
-        //   key={index}
-        //   isPressable
-        //   onPress={() => handleVapePress(item.product_id)}
-        // >
-        //   <CardBody className="overflow-visible p-0">
-        //     <Add />
-        //   </CardBody>
-        //   <CardFooter className="text-small justify-between">
-        //     <b>{item.brand_name}</b>
-        //     <p className="text-default-500">{item.model_name}</p>
-        //   </CardFooter>
-        // </Card>
-        <Card 
-          isFooterBlurred 
-          // className="w-full h-[300px] col-span-12 sm:col-span-7"
+        <Card
           key={index}
           isPressable
           onPress={() => handleVapePress(item.product_id)}
+          className="min-w-[200px] relative" // Ensure all cards have the same width and are positioned correctly
         >
-          <CardHeader className="absolute z-10 top-1 flex-col items-start">
-            <p className="text-tiny text-white/60 uppercase font-bold">{item.brand_name}</p>
-            <h4 className="text-white/90 font-medium text-xl">{item.model_name}</h4>
+          <CardHeader className="flex flex-col items-start p-4">
+            <p className="text-tiny text-black uppercase font-bold">{item.brand_name}</p>
+            <h4 className="text-black font-medium text-xl">{item.model_name}</h4>
           </CardHeader>
+
           {/* <Image
-            removeWrapper
-            alt="Relaxing app background"
-            className="z-0 w-full h-full object-cover"
-            src="https://nextui.org/images/card-example-5.jpeg"
+            src="https://nextui.org/images/card-example-5.jpeg" // Replace with the actual image source
+            alt={item.model_name}
+            className="w-full h-32 object-cover"
           /> */}
-          <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
-            <div className="flex flex-grow gap-2 items-center">
-              {/* <Image
-                alt="Breathing app icon"
-                className="rounded-full w-10 h-11 bg-black"
-                src="https://nextui.org/images/breathing-app-icon.jpeg"
-              /> */}
-              <div className="flex flex-col">
-                <p className="text-tiny text-white/60">
-                  <Add />
-                </p>
-                <p className="text-tiny text-white/60">.</p>
-              </div>
+
+          <CardFooter className="bg-gray-900 text-white p-4">
+            <div className="flex justify-between items-left">
+              <Add />
+            </div>
+            <div className="flex justify-between items-right">
+              <Retire />
             </div>
           </CardFooter>
         </Card>
